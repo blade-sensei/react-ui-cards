@@ -8,15 +8,15 @@
 }
 
 .cards-jobday {
-  
+  display: inline-flex;
   height: 200px;
-  background: #FFFFFF;
-  box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
-  border-radius: 10px;
+  justify-content: space-between;
+
+  
 }
 
 .cards-jobapplication {
-  grid-column: 1;
+  display: flex;
   height: 200px;
   background: #FFFFFF;
   box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
@@ -24,7 +24,7 @@
 }
 
 .cards-topsalaries {
-  grid-column: 1;
+  display: flex;
   height: 200px;
   background: #FFFFFF;
   box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
@@ -32,8 +32,15 @@
 }
 
 .cards-profiles {
-  grid-column: 1;
+  display: flex;
   height: 200px;
+  background: #FFFFFF;
+  box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
+  border-radius: 10px;
+}
+
+.card-single {
+  flex-basis: 30%;
   background: #FFFFFF;
   box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
   border-radius: 10px;
