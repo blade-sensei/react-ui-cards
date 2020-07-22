@@ -2,17 +2,15 @@
   background: #E6E6EB;
   border: 1px solid #E6E6EB;
   display: grid;
-  padding-left: 188px;
-  padding-right: 188px;
+  padding-left: 10%;
+  padding-right: 10%;
   row-gap: 24px;
 }
 
 .cards-jobday {
   display: inline-flex;
   height: 200px;
-  justify-content: space-between;
-
-  
+  justify-content: space-between; 
 }
 
 .cards-jobapplication {
@@ -40,7 +38,7 @@
 }
 
 .card-single {
-  flex-basis: 30%;
+  flex-basis: 32%;
   background: #FFFFFF;
   box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
   border-radius: 10px;
