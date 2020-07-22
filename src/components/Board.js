@@ -43,7 +43,20 @@ function Board () {
         <div className='single-card'> </div>
         <div className='single-card'> </div>
       </div>
-      <div className='cards-profiles'></div>
+      <div className='cards-profiles'>
+        <div className='profile'>
+
+        </div>
+        <div className='profile'>
+          
+        </div>
+        <div className='profile'>
+          
+        </div>
+        <div className='profile'>
+          
+        </div>
+      </div>
 
     </div>
   )
