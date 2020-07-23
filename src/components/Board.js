@@ -3,6 +3,8 @@ import './Board.css';
 import CardOfDay from './cards/CardOfDay';
 import JobApplication from './cards/JobApplication'
 import TopSalaries from './cards/TopSalaries';
+import Job from './cards/Job';
+import Profile from './cards/Profile';
 
 function Board () {
 
@@ -48,19 +50,21 @@ function Board () {
           <TopSalaries/>
         </div>
       </div>
+      <div className='cards-job-list'>
+        <div className='job'>
+          <Job/>
+        </div>
+        <div className='job'>
+          <Job/>
+        </div>
+      </div>
       <div className='cards-profiles'>
-        <div className='profile'>
-
-        </div>
-        <div className='profile'>
-          
-        </div>
-        <div className='profile'>
-          
-        </div>
-        <div className='profile'>
-          
-        </div>
+       <div className='profile'>
+        <Profile/>
+       </div>
+       <div className='profile'>
+        <Profile/>
+       </div>
       </div>
 
     </div>

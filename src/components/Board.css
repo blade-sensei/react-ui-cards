@@ -6,6 +6,7 @@
   padding-right: 10%;
   row-gap: 24px;
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .cards-jobday {
@@ -28,13 +29,17 @@
 
 .cards-profiles {
   display: grid;
-  height: 200px;
   grid-template-columns: 1fr 1fr;
   column-gap: 15px;
-  row-gap: 15px;
 }
 
 .cards-jobday .card-single {
   flex-basis: 32%;
+}
+
+.cards-job-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
 }
 
