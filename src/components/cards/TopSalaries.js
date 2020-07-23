@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './TopSalaries.css';
+import './TopSalaries.css';
 function TopSalaries() {
   const salary = {
     graph: '/img/graph.png',
