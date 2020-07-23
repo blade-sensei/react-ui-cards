@@ -3,11 +3,27 @@
  justify-content: space-between;
  flex-direction: column;
  padding: 8%;
+ background: rgb(255, 255, 255);
+ box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
+ border-radius: 10px;
 }
 
 .card-header {
   display: flex;
   justify-content: space-between;
+}
+
+.prof-title {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #272738;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.compagny-name {
+  margin-left: 12px;
 }
 
 .card-body {
@@ -17,11 +33,12 @@
 }
 
 .card-avatar {
-  
+  display: flex;
+  align-items: center;
 }
 
 .card-rating {
-  
+  margin-top: -8px;
 }
 
 .location {

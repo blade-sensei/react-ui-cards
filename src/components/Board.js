@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Board.css';
 import CardOfDay from './cards/CardOfDay';
 import JobApplication from './cards/JobApplication'
+import TopSalaries from './cards/TopSalaries';
 
 function Board () {
 
@@ -35,13 +36,17 @@ function Board () {
       </div>
       <div className='cards-topsalaries'>
         <div className='single-card'>
-          sal
+          <TopSalaries/>
         </div>
         <div className='single-card'>
-          sal
+          <TopSalaries/>
         </div>
-        <div className='single-card'> </div>
-        <div className='single-card'> </div>
+        <div className='single-card'>
+          <TopSalaries/>
+        </div>
+        <div className='single-card'>
+          <TopSalaries/>
+        </div>
       </div>
       <div className='cards-profiles'>
         <div className='profile'>

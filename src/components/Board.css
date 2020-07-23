@@ -5,26 +5,25 @@
   padding-left: 10%;
   padding-right: 10%;
   row-gap: 24px;
+  padding-top: 24px;
 }
 
 .cards-jobday {
-  display: inline-flex;
-  height: 200px;
-  justify-content: space-between; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
 }
 
 .cards-jobapplication {
   display: grid;
-  height: 200px;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5%;
+  column-gap: 24px;
 }
 
 .cards-topsalaries {
   display: grid;
-  height: 100px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 5%;
+  column-gap: 24px;
 }
 
 .cards-profiles {
@@ -37,8 +36,5 @@
 
 .cards-jobday .card-single {
   flex-basis: 32%;
-  background: #FFFFFF;
-  box-shadow: 0 18px 32px -4px rgba(136,136,136,0.25);
-  border-radius: 10px;
 }
 
