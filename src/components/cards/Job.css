@@ -18,8 +18,9 @@
 }
 
 .card {
-  padding: 24px;
-  padding-top: 16px;
+  padding: 16px 16px;
+  padding-left: 24px;
+  padding-bottom: 24px;
 }
 
 .card-body {
@@ -32,8 +33,9 @@
   justify-content: space-between;
 }
 
-.location {
+.job .location {
   margin-top: 0px;
+  margin-left: 8px;
 }
 
 .type-job {
@@ -94,3 +96,4 @@ height: 40px;
 .value {
   margin: auto;
 }
+
