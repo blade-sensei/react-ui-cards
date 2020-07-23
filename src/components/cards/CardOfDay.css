@@ -44,7 +44,7 @@
   margin-top: 8px;
 }
 
-.card-rating {
+.card-rating-value {
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -55,7 +55,7 @@
   
 }
 
-.card-rating span {
+.card-rating-value span {
 font-family: 'Helvetica';
 font-size: 16px;
 color: #272738;
@@ -70,7 +70,7 @@ line-height: 24px;
   line-height: 24px;
 }
 
-.card-rating span {
+.card-rating-value span {
   margin: auto;
 }
 

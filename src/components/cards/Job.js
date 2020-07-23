@@ -18,7 +18,7 @@ function Job() {
   return (
     <div className='card'>
       <div className='card-header'>
-        <div className='card-avatar'>
+        <div className='card-avatar-job'>
           <span className='avatar-circle'>
             <img src={job.imagePath} alt='' />
           </span>
@@ -26,9 +26,15 @@ function Job() {
           <span className='compagny-name'> {job.compagnyName}</span>
         </div>
         <div className='card-rating'>
-          <span> start </span>
-          <span> share </span>
-          <span> {job.rating} </span>
+          <div className='icon-star'> 
+            <img  src='/img/star.png' alt=''/>
+          </div>
+          <div className='icon-bookmark'>
+            <img src='/img/bookmark.png' alt=''/>
+          </div>
+          <div className='rating'> 
+            <span className='value'> {job.rating} </span>
+          </div>
         </div>
       </div>
       <div className='card-body'>
@@ -37,7 +43,7 @@ function Job() {
       </div>
       <div className='card-footer'>
         <div className='location'>{job.location}</div>
-        <div className='type-job'> {job.type}</div> 
+        <span className='type-job'> {job.type}</span> 
       </div>
     </div>
   )

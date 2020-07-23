@@ -24,7 +24,7 @@ function CardOfDay() {
           </span>
           <span className='compagny-name'> {jobOfDay.compagnyName}</span>
         </div>
-        <div className='card-rating'>
+        <div className='card-rating-value'>
           <span> {jobOfDay.rating} </span>
         </div>
       </div>
