@@ -17,8 +17,8 @@
 }
 
 .profile-card .card-body {
-  margin-left: 40px;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -29,6 +29,7 @@
   font-size: 14px;
   color: #828294;
   line-height: 24px;
+  margin-left: 40px;
 }
 
 .values{
@@ -40,4 +41,26 @@
   font-size: 14px;
   color: #272738;
   line-height: 24px;
+}
+
+.profile-information {
+  display: flex;
+}
+
+.status {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.status span {
+  background: rgb(154, 83, 255);
+  border: 1px solid rgb(154, 83, 255);
+  border-radius: 12px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 20px;
+  padding: 1px 8px;
 }

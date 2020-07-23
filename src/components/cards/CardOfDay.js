@@ -1,37 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './CardOfDay.css'
-function CardOfDay() {
-
-  const jobOfDay = {
-    imagePath: '/img/spotify.png',
-    compagnyName: 'Spotify',
-    profTitle: 'Senior UX/UI Designer',
-    salaryRange: {
-      start: '100000',
-      end: '120000',
-    },
-    rating: '4.4',
-    location: 'New York, NY, USA'
-  }
-
+function CardOfDay({card}) {
+  
+ 
+ 
   return (
     <div className='card'>
       <div className='card-header'>
         <div className='card-avatar'> 
           <span className='avatar-circle'>
           
-          <img className='avatar-img' src={jobOfDay.imagePath} alt=''/>
+          <img className='avatar-img' src={card.imagePath} alt=''/>
           </span>
-          <span className='compagny-name'> {jobOfDay.compagnyName}</span>
+          <span className='compagny-name'> {card.compagnyName}</span>
         </div>
         <div className='card-rating-value'>
-          <span> {jobOfDay.rating} </span>
+          <span> {card.rating} </span>
         </div>
       </div>
       <div className='card-body'>
-        <div className='prof-title'> {jobOfDay.profTitle}</div>
-  <div className='salary'> ${jobOfDay.salaryRange.start} - ${jobOfDay.salaryRange.end} </div>
-        <div className='location'>{jobOfDay.location}</div>
+        <div className='prof-title'> {card.profTitle}</div>
+  <div className='salary'> ${card.salaryRange.start} - ${card.salaryRange.end} </div>
+        <div className='location'>{card.location}</div>
       </div>
     </div>
   )

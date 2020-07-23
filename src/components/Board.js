@@ -8,22 +8,58 @@ import Profile from './cards/Profile';
 
 function Board () {
 
-  // data init
+  const jobs = [
+    {
+      key:'1',
+      imagePath: '/img/spotify.png',
+      compagnyName: 'Spotify',
+      profTitle: 'Senior UX/UI Designer',
+      salaryRange: {
+        start: '100000',
+        end: '120000',
+      },
+      rating: '4.4',
+      location: 'New York, NY, USA'
+    },
+    {
+      key:'2',
+      imagePath: '/img/airbnblogo.png',
+      compagnyName: 'Airbnb',
+      profTitle: 'Senior UX/UI Designer',
+      salaryRange: {
+        start: '40.000',
+        end: '60.000',
+      },
+      rating: '4.4',
+      location: 'New York, NY, USA'
+    },
+    {
+      key:'3',
+      imagePath: '/img/google.png',
+      compagnyName: 'Google',
+      profTitle: 'Senior UX/UI Designer',
+      salaryRange: {
+        start: '40.000',
+        end: '60.000',
+      },
+      rating: '4.4',
+      location: 'New York, NY, USA'
+    },
+  ]
 
-  // function internal
 
   return (
     <div className='container'>
       <div className='cards-jobday'>
-        <div className='card-single'>
-          <CardOfDay/>
-        </div>
-        <div className='card-single'>
-          <CardOfDay/>
-        </div>
-        <div className='card-single'>
-          <CardOfDay/>
-        </div>
+        {
+          jobs.map((job) => {
+            return (
+              <div className='card-single' key={job.key}>
+                <CardOfDay card={job}/>
+              </div>  
+            )
+          })
+        }
       </div>
       <div className='cards-jobapplication'>
         <div>

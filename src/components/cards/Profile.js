@@ -27,17 +27,23 @@ function Profile() {
         </div>
       </div>
       <div className='card-body'>
-        <div className='labels'>
-        <label> Last Job </label>
-        <label> Exp. </label>
-        <label> Rate </label>
+        <div className='profile-information'>
+          <div className='labels'>
+            <label> Last Job </label>
+            <label> Exp. </label>
+            <label> Rate </label>
+          </div>
+          <div className='values'>
+
+            <span> Google </span>
+            <span> 5 years 9 month  </span>
+            <span> $50/hour </span>
+          </div>
         </div>
-        <div className='values'>
-          
-          <span> Google </span>
-          <span> 5 years 9 month  </span>
-          <span> $50/hour </span>
+        <div className='status'>
+          <span className='type-job'> Full-time </span> 
         </div>
+
       </div>
     </div>
   )
