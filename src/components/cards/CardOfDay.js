@@ -19,9 +19,9 @@ function CardOfDay() {
       <div className='card-header'>
         <div className='card-avatar'> 
           <span className='avatar-circle'>
-            <img src={jobOfDay.imagePath} alt=''/>
-          </span>
           
+          <img className='avatar-img' src={jobOfDay.imagePath} alt=''/>
+          </span>
           <span className='compagny-name'> {jobOfDay.compagnyName}</span>
         </div>
         <div className='card-rating'>
