@@ -1,12 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is just a basic implemntation of a sketch prototype
+This is just a basic cards implemntation of a sketch prototype
+
+demo: https://rtn-cards.netlify.app/
 
 ## Techs
 
 - React
 - Css Grids/Flex
 - Sketch
+- Netlify
 
 ## Photos
 
