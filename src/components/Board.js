@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Board.css';
 import CardOfDay from './cards/CardOfDay';
 import JobApplication from './cards/JobApplication'
